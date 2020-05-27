@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My hubspot  Test Automation Regression suite]">
+  <parameter name="url" value="https://app.hubspot.com/login"/>
+  <test thread-count="5" name="hubspot functional  test(failed)">
+    <classes>
+      <class name="TestNGSessions.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="verifyLoginPageTitleTest"/>
+        </methods>
+      </class> <!-- TestNGSessions.LoginPageTest -->
+    </classes>
+  </test> <!-- hubspot functional  test(failed) -->
+</suite> <!-- Failed suite [My hubspot  Test Automation Regression suite] -->

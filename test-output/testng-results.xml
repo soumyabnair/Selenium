@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My hubspot  Test Automation Regression suite" duration-ms="24944" started-at="2020-05-21T21:54:34Z" finished-at="2020-05-21T21:54:59Z">
+    <groups>
+    </groups>
+    <test name="hubspot functional  test" duration-ms="24944" started-at="2020-05-21T21:54:34Z" finished-at="2020-05-21T21:54:59Z">
+      <class name="TestNGSessions.LoginPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:TestNGSessions.LoginPageTest@3e6fa38a]" name="setUp" is-config="true" duration-ms="17364" started-at="2020-05-21T21:54:34Z" finished-at="2020-05-21T21:54:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://app.hubspot.com/login]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifySignUpLinkTest()[pri:1, instance:TestNGSessions.LoginPageTest@3e6fa38a]" name="verifySignUpLinkTest" duration-ms="5769" started-at="2020-05-21T21:54:52Z" finished-at="2020-05-21T21:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignUpLinkTest -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:2, instance:TestNGSessions.LoginPageTest@3e6fa38a]" name="verifyLoginPageTitleTest" duration-ms="24" started-at="2020-05-21T21:54:58Z" finished-at="2020-05-21T21:54:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:3, instance:TestNGSessions.LoginPageTest@3e6fa38a]" name="loginTest" duration-ms="954" started-at="2020-05-21T21:54:58Z" finished-at="2020-05-21T21:54:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[soumyabnair@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNGSessions.LoginPageTest@3e6fa38a]" name="tearDown" is-config="true" duration-ms="724" started-at="2020-05-21T21:54:59Z" finished-at="2020-05-21T21:54:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNGSessions.LoginPageTest -->
+    </test> <!-- hubspot functional  test -->
+  </suite> <!-- My hubspot  Test Automation Regression suite -->
+</testng-results>
